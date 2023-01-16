@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@font-face {
+  font-family: Fungames;
+  src: url("./fonts/Fungames-lgPnq.otf") format("opentype");
+}
+
+body {
+  background-color: rgb(1, 1, 81);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 30px;
+}
+
+header h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #4cbb16;
+  text-transform: uppercase;
+  font-family: "Fungames";
+}
+nav {
+  margin-top: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #3968ec;
+  padding: 10px 0px;
+}
+
+li.vl {
+  width: 2px;
+  height: 30px;
+  background-color: white;
+  cursor: auto;
+}
+
+li {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  width: 90%;
+  margin: 30px auto;
+}
+
+section h2 {
+  color: white;
+  font-weight: bold;
+}
+
+section .games {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10px;
+}
+
+.games div {
+  position: relative;
+}
+.games div p{
+  position: absolute;
+  left: 7px;
+  bottom: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+.games img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.bottom section {
+  width: 40%;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  color: white;
+  margin-top: 30px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.box img {
+  width: 40%;
+}
+.box h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.box .right {
+  width: 55%;
+}
+.box span {
+  font-family: sans-serif;
+}
+.box p {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 10px;
+}
+.box p:last-child {
+  margin-top: 7px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+footer div {
+  width: 400px;
+}
+footer h4 {
+  color: #00920d;
+  font-size: 18px;
+}
+footer p {
+  color: #6084e6;
+  margin-top: 15px;
+}
