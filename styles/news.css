@@ -1,0 +1,9 @@
+section h1 {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
