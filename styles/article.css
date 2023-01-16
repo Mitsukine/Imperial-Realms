@@ -1,0 +1,27 @@
+ul {
+  list-style: disc;
+  width: 57%;
+
+  margin: auto;
+}
+ul:first-child {
+  list-style: none;
+  width: 100%;
+}
+main h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+main img {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+}
+
+main p {
+  width: 60%;
+  color: white;
+  margin: 20px auto;
+}
