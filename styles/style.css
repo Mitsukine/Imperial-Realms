@@ -47,7 +47,7 @@ li.vl {
   cursor: auto;
 }
 
-li {
+li a {
   color: white;
   cursor: pointer;
   font-weight: bold;
